@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <h1 id="title">FoodBooker</h1>
+    <form id="login-form" action="test.php" method="GET ">
+      Email:
+      <input
+        type="email"
+        name="email"
+        placeholder="john@example.com"
+        id="email1"
+      /><br />
+      Password:
+      <input
+        type="password"
+        name="password"
+        placeholder="Password"
+        id="password"
+      />
+      <input type="checkbox" onclick="myFunction()" id="check" />
+      Show password
+      <br />
+      <a href="#" id="forgot">Forgot Password</a><br />
+      <button type="submit" id="submit">Login</button>
+      <p id="register">
+        New to FoodBooker?
+        <a href="registration.html" id="register">Register Now</a>
+      </p>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("password");
+          if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+          }
+        }
+      </script>
+    </form>
+  </body>
+</html>

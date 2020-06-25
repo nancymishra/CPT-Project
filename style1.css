@@ -1,0 +1,43 @@
+body {
+  background-image: url(images.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+div {
+  display: block;
+  box-sizing: border-box;
+  line-height: 40px;
+  text-align: center;
+  margin: auto;
+  line-height: 50px;
+  font-size: 20px;
+  width: 30%;
+  padding: 10px;
+  position: relative;
+  bottom: 70px;
+}
+#reg {
+  background: black;
+  color: wheat;
+  font-size: 20px;
+  box-shadow: yellowgreen;
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px 20px 5px 20px;
+}
+h2 {
+  font-size: 30px;
+  background: palegreen;
+  opacity: 0.75;
+}
+#title {
+  font-size: 40px;
+  display: inline-block;
+  background-color: whitesmoke;
+  border: solid;
+  padding: 5px;
+  position: relative;
+  left: 15px;
+  bottom: 20px;
+}
